@@ -1,14 +1,14 @@
 # arduino-sample
 [![Build Status](https://travis-ci.org/stoe/arduino-sample.svg?branch=master)](https://travis-ci.org/stoe/arduino-sample)
 
-> Arduino Due Sample CI/CD chain
+> Arduino Pro Micro (Leonardo) Sample CI/CD chain
 
 ## Usage
 
 > :construction: Work in Progress
 
 ###### 1. `BOARD_ID`
-Set your `BOARD_ID` (e.g. `due`) as variable in Travis CI environment variable via
+Set your `BOARD_ID` (e.g. `leonardo`) as variable in Travis CI environment variable via
 ```sh
 $ travis env set PIO_BOARD <BOARD_ID> -r <GITHUB_USERNAME>/arduino-sample
 ```
